@@ -2,10 +2,19 @@
 
 #include <string>
 #include <iostream>
+#include <exception>
+
 using namespace std;
 
-int main() {
-	RPNCalculator<double> calculator{};
+int main() 
+{
+	cout << "Enter c to clear the stack \n";
+	cout << "s to square\nn to negate\n p to pop current value\nq to quit\n\n";
+	
+	RPNCalculator<double> calc{};
+	bool running = true; 
+	string buff{};
+	
 
 	string buff;
 	cout << "X>";
