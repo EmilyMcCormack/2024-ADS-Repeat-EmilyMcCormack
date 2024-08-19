@@ -18,8 +18,8 @@ namespace UnitTests
 			// check 1000 random calculations
 			for (auto i = 0; i < 1000; i++) {
 				calc.clear();
-				auto a = rng();
-				auto b = rng();
+				int a = rng();
+				int b = rng();
 				auto result = a + b;
 				calc.push(a);
 				calc.push(b);
@@ -36,8 +36,8 @@ namespace UnitTests
 			// check 1000 random calculations
 			for (auto i = 0; i < 1000; i++) {
 				calc.clear();
-				auto a = rng();
-				auto b = rng();
+				int a = rng();
+				int b = rng();
 				auto result = a - b;
 				calc.push(a);
 				calc.push(b);
@@ -53,8 +53,8 @@ namespace UnitTests
 			// check 1000 random calculations
 			for (auto i = 0; i < 1000; i++) {
 				calc.clear();
-				auto a = rng();
-				auto b = rng();
+				int a = rng();
+				int b = rng();
 				auto result = a * b;
 				calc.push(a);
 				calc.push(b);
@@ -70,8 +70,8 @@ namespace UnitTests
 			// check 1000 random calculations
 			for (auto i = 0; i < 1000; i++) {
 				calc.clear();
-				auto a = rng();
-				auto b = rng();
+				int a = rng();
+				int b = rng();
 				auto result = a / b;
 				calc.push(a);
 				calc.push(b);
